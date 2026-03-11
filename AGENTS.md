@@ -15,12 +15,23 @@ All writeups must follow this hierarchy:
 └── files/          # challenge attachments (if any)
 ```
 
+**Examples:**
+```
+lactf-2026/web/bobles-and-narnes/
+├── README.md
+├── solve.py
+└── files/
+
+apoorvctf-2026/osint/journey/
+└── README.md
+```
+
 Each contest lives at the root level with its own `README.md` (copied from `templates/CONTEST_TEMPLATE.md`).
 
 ## Naming Conventions
 
-- **Contest folders:** lowercase, hyphenated, include year — e.g., `picoctf-2025`, `defcon-quals-2025`
-- **Challenge folders:** lowercase, hyphenated — e.g., `sql-injection`, `ret2libc`
+- **Contest folders:** lowercase, hyphenated, include year — e.g., `lactf-2026`, `apoorvctf-2026`
+- **Challenge folders:** lowercase, hyphenated — e.g., `bobles-and-narnes`, `journey`
 - **Category folders:** use only the defined categories below (lowercase, no spaces)
 
 ## Valid Categories
@@ -42,6 +53,10 @@ Do not create new categories without updating `README.md`.
 3. Fill in all fields: contest, category, points, difficulty, flag, description, solution
 4. Add a row to the **Solved Challenges** table in `<contest>/README.md`
 5. Increment the writeup count in the root `README.md` contests table
+
+**Examples:**
+- LA CTF 2026 web challenge → `lactf-2026/web/bobles-and-narnes/README.md`
+- ApoorvCTF 2026 osint challenge → `apoorvctf-2026/osint/journey/README.md`
 
 ## Templates
 
