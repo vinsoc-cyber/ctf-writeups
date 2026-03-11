@@ -1,11 +1,11 @@
-# Challenge Name
+# The Rite of the Blessings
 
-**Contest:** [Contest Name]
-**Category:** [web / pwn / crypto / rev / misc / forensics / osint / stego / ai / cloud]
+**Contest:** ApoorvCTF 2026
+**Category:** ai
 **Points:** [N]
 **Difficulty:** [easy / medium / hard]
 **Flag:** `flag{...}`
-**Solved by:** [name1, name2, ...]
+**Solved by:** @thanhvc4
 
 ---
 
